@@ -1,32 +1,32 @@
-# Portfolio Profissional
+# Portfólio Profissional
 
-Website de portfolio profissional para apresentar trajetoria, habilidades, projetos e contato de forma moderna e acessivel. Projeto desenvolvido por 4 estudantes em React.
+O objetivo deste projeto consiste na construção de um website de portfólio profissional, criado com React para apresentar minha trajetória, habilidades, projetos, experiências e contatos de forma moderna e acessível.
 
 ## Objetivo
 
 Construir um site pessoal com navegacao clara e conteudo organizado, incluindo apresentacao em PT/EN, projetos em linha do tempo, experiencias e canais de contato.
 
-## Funcionalidades
+## ✨Principais Funcionalidades
 
-- Menu de navegacao com secoes: Sobre Mim, Projetos, Experiencias e Contato.
-- Sobre Mim com textos em portugues e ingles.
-- Projetos em ordem cronologica (do mais antigo ao mais recente), com tecnologias, link de repositorio e midia (imagem ou GIF).
-- Experiencias profissionais e academicas com periodo e descricao.
-- Contato com icones clicaveis e formulario com envio de e-mail.
-- Layout responsivo para desktop e mobile.
+- Menu de navegação estruturado com as seções: Sobre Mim, Projetos, Experiências e Contato.
+- Seção Sobre Mim bilíngue, com conteúdos disponíveis em português e inglês.
+- Listagem de Projetos em ordem cronológica (do mais antigo ao mais recente), contendo tecnologias utilizadas, link para o repositório e mídia ilustrativa.
+- Seção de Experiências profissionais e acadêmicas, com período de atuação e descrição detalhada das atividades.
+- Canal de contato interativo, com redirecionamento para redes profissionais e formulário funcional para envio de mensagens via e-mail.
+- Design responsivo e adaptável, garantindo consistência visual e usabilidade em diferentes dispositivos e tamanhos de tela.
 
-## Tecnologias
+## 🛠️ Tecnologias Utilizadas
 
-- React
--  definir build tool (Vite ou CRA)
-- definir biblioteca de estilos (CSS Modules, Tailwind, Styled Components, etc.)
--  definir servico de envio de e-mail (EmailJS, Formspree, etc.)
+- **React**: Biblioteca JavaScript para desenvolvimento de interfaces interativas e reutilizáveis.
+- **Tailwind**: Framework CSS utilitário para estilização rápida e responsiva.
+-  Definir build tool (Vite ou CRA)
+-  Definir servico de envio de e-mail (EmailJS, Formspree, etc.)
 
-## Dependencias
+## Dependências
 
 -  listar dependencias do projeto.
 
-## Estrutura de pastas
+## 📂 Estrutura de pastas
 
 ```
 /
@@ -43,12 +43,13 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 
 > Ajuste a estrutura conforme a organizacao real do projeto.
 
-## Instalacao e execucao local
+## 🔧 Instalação e Execução
 
-### Pre-requisitos
+### Pré-requisitos
+Certifique-se de que o usuário tenha o ambiente configurado.
 
-- Node.js LTS
-- npm (ou yarn/pnpm)
+- Node.js LTS (Necessário para o Front-end React)
+- Gerenciador de pacotes: npm (ou yarn/pnpm)
 
 ### Passos
 
@@ -61,9 +62,15 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 
 > Atualize os comandos conforme os scripts reais do projeto.
 
-## Configuracao do formulario de contato
+## Configuração do formulário de contato
 
 - documentar o servico de envio de e-mail e as variaveis de ambiente necessarias.
+
+## ⚡Como Executar a Aplicação
+
+Execute a aplicação em modo de desenvolvimento em dois terminais separados.
+
+Passo a passo de execução aqui.
 
 ## Deploy
 
@@ -74,17 +81,18 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 
 - https://www.figma.com/design/wZwKwc5CVfHUQRpYwz2kZw/Portfolio--Community---Copy-?node-id=0-1&t=PKmLb1q0wZD61VKS-1
 
-## Equipe
+  
+## 👥 Autores
 
 - Ana Luiza de Freitas Rodrigues
 - Felipe Augusto Mendes Pereira
 - Francisco Rafael Pereira Rodrigues
 - Kayke Emanoel de Souza Santos
 
-## Professor responsavel
+## Professor responsável
 
 - Joao Paulo Carneiro Aramuni
 
-## Licenca
+## Licença
 
 - definir licenca do projeto.
