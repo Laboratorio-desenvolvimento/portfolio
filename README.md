@@ -8,9 +8,10 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 
 ## ✨Principais Funcionalidades
 
-- Menu de navegação estruturado com as seções: Sobre Mim, Projetos, Experiências e Contato.
+- Menu de navegação estruturado com as seções: Sobre Mim, Projetos, Currículo, Experiências e Contato.
 - Seção Sobre Mim bilíngue, com conteúdos disponíveis em português e inglês.
 - Listagem de Projetos em ordem cronológica (do mais antigo ao mais recente), contendo tecnologias utilizadas, link para o repositório e mídia ilustrativa.
+- Seção com currículo disponível para exportação em português e inglês.
 - Seção de Experiências profissionais e acadêmicas, com período de atuação e descrição detalhada das atividades.
 - Canal de contato interativo, com redirecionamento para redes profissionais e formulário funcional para envio de mensagens via e-mail.
 - Design responsivo e adaptável, garantindo consistência visual e usabilidade em diferentes dispositivos e tamanhos de tela.
