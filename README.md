@@ -80,7 +80,7 @@ Passo a passo de execução aqui.
 
 ## Figma
 
-- https://www.figma.com/design/wZwKwc5CVfHUQRpYwz2kZw/Portfolio--Community---Copy-?node-id=0-1&t=PKmLb1q0wZD61VKS-1
+- https://www.figma.com/design/2n2ZNTDzwCOiKLBwfiv7Ir/Portfolio?node-id=0-1&t=ZzlhBkS4CiMu8oKJ-1
 
   
 ## 👥 Autores
