@@ -1,6 +1,15 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+body {
   margin: 0;
   padding: 0;
-  background-origin: border-box;
-  background-color: #1E1E1E;
+  overflow-x: hidden;
+  font-family: 'Fira Code', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282C33;
+}
+
+* {
+  box-sizing: border-box;
 }
