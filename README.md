@@ -23,9 +23,11 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 -  Definir build tool (Vite ou CRA)
 -  Definir servico de envio de e-mail (EmailJS, Formspree, etc.)
 
-## Dependências
+## 📦 Dependências
 
--  listar dependencias do projeto.
+- i18next – Biblioteca principal para internacionalização (i18n), responsável por gerenciar traduções e múltiplos idiomas na aplicação.
+
+- react-i18next – Integração do i18next com React, permitindo utilizar hooks e componentes para tradução dentro da interface.
 
 ## 📂 Estrutura de pastas
 
@@ -36,7 +38,8 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
     assets/
     components/
     data/
-    pages/
+    locales/
+    services/
     styles/
     App.jsx
     main.jsx
