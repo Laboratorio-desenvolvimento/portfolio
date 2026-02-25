@@ -4,7 +4,7 @@ O objetivo deste projeto consiste na construção de um website de portfólio pr
 
 ## Objetivo
 
-Construir um site pessoal com navegacao clara e conteudo organizado, incluindo apresentacao em PT/EN, projetos em linha do tempo, experiencias e canais de contato.
+Construir um site pessoal com navegacao clara e conteudo organizado, incluindo apresentacao em PT/EN, projetos em linha do tempo, experiências e canais de contato.
 
 ## ✨Principais Funcionalidades
 
