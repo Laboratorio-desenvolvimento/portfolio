@@ -1,0 +1,67 @@
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+}
+
+.nome {
+    margin: 0;
+    margin-left: 100px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.cabeca p {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0px 10px 10px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.cabeca p:first-of-type {
+    margin-left: 0;
+}
+
+.cabeca p:hover {
+    color: purple;
+}
+
+.hashtag {
+    font-weight: bold;
+    color: purple;
+}
+
+#hashtage {
+    font-weight: bold;
+    color: purple;
+}
+
+.selecao-idioma {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.selecao-idioma:hover {
+    background-color: #1a1a1a;
+    color: purple;
+}
+
+.idioma-select option {
+    background-color: #1a1a1a;
+    color: #fff;
+}
