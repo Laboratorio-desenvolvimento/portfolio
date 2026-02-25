@@ -1,7 +1,6 @@
 import { useLanguage } from '../services/translation'
 
 const Home = () => {
-
     const { t, idioma, changeLanguage } = useLanguage()
 
     return (

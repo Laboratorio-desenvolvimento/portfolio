@@ -43,7 +43,7 @@ const Header = () => {
               onChange={(e) => changeLanguage(e.target.value)}
             >
               <option value="EN">EN</option>
-              <option value="PT">PT</option>
+              <option value="PT">PT-BR</option>
             </select>
           </li>
         </ul>
