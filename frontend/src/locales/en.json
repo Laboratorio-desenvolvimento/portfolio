@@ -3,5 +3,10 @@
     "about": "about-me",
     "projects": "works",
     "resume": "resume",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "nome": "Name",
+    "profissao": "SOFTWARE ENGINNER",
+    "veja-projetos": "see my projects",
+    "entre-em-contato": "get in touch",
+    "trabalhando-atualmente": "currently working at Portfolio"
 }

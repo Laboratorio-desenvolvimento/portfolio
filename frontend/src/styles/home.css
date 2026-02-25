@@ -1,0 +1,58 @@
+.home-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        padding: 2rem;
+        flex-wrap: wrap;
+}
+.home-infos{
+        flex: 1 1 320px;
+        min-width: 260px;
+}
+.home-foto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+}
+
+.photo-box{
+        width: 280px;
+        height: 280px;
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+        border: 1px solid rgba(0,0,0,0.06);
+}
+.nome{
+        color: #870EBF;
+}
+
+.cta-box{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        padding: 0.5rem 0.75rem;
+        border-radius: 8px;
+        background: rgba(135,14,191,0.04);
+}
+
+.cta-item{
+        color: #870EBF;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.35rem 0.6rem;
+        border-radius: 6px;
+}
+
+@media (max-width: 480px){
+  .cta-box{
+    flex-direction: column;
+    width: 100%;
+  }
+  .cta-item{
+    width: 100%;
+    text-align: center;
+  }
+}
