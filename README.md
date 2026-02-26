@@ -25,9 +25,17 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 
 ## 📦 Dependências
 
+- react-router-dom – Permite criar navegação entre páginas sem recarregar o navegador
+
+- react-dom – Responsável por fazer a ligação entre o React e o DOM do navegador
+
 - i18next – Biblioteca principal para internacionalização (i18n), responsável por gerenciar traduções e múltiplos idiomas na aplicação.
 
 - react-i18next – Integração do i18next com React, permitindo utilizar hooks e componentes para tradução dentro da interface.
+
+- react-icons – Importação de icons personalizados
+
+- @emailjs/browser – Criação do envio de email
 
 ## 📂 Estrutura de pastas
 
