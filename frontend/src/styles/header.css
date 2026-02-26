@@ -10,38 +10,33 @@
     margin: 0;
 }
 
-.nome {
+.titulo {
     margin: 0;
     margin-left: 100px;
 }
 
 .nav-links {
     display: flex;
+    align-items: center;
     gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.cabeca p {
-    cursor: pointer;
+.nav-item {
+    text-decoration: none;
+    color: #ABB2BF;
     transition: all 0.3s ease;
     padding: 0px 10px 10px 10px;
     border-radius: 5px;
-    margin: 0;
 }
 
-.cabeca p:first-of-type {
-    margin-left: 0;
-}
-
-.cabeca p:hover {
+.nav-item:hover {
     color: purple;
 }
 
 .hashtag {
-    font-weight: bold;
-    color: purple;
-}
-
-#hashtage {
     font-weight: bold;
     color: purple;
 }
@@ -51,8 +46,6 @@
     color: #fff;
     border: none;
     font-size: 0.8rem;
-    margin-left: 10px;
-    margin-bottom: 10px;
     cursor: pointer;
 }
 
@@ -61,7 +54,7 @@
     color: purple;
 }
 
-.idioma-select option {
+.selecao-idioma option {
     background-color: #1a1a1a;
     color: #fff;
 }

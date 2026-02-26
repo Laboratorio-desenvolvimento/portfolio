@@ -1,18 +1,55 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import { useLanguage } from '../services/translation'
+import '../styles/header.css'
+
 
 const Header = () => {
-    return (
-        <header style={{ padding: '1rem' }}>
-            <nav>
-                <ul style={{ display: 'flex', justifyContent: 'flex-end', gap: '2rem', listStyle: 'none', margin: 0, padding: 0 }}>
-                    <li><Link to="/" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Início</Link></li>
-                    <li><Link to="/projects" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Projetos</Link></li>
-                    <li><Link to="/aboutme" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Sobre mim</Link></li>
-                    <li><Link to="/resume" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Currículo</Link></li>
-                </ul>
-            </nav>
-        </header>
-    );
-};
+  const { t, idioma, changeLanguage } = useLanguage()
 
-export default Header;
+  return (
+    <header className="cabeca">
+      <h4 className="titulo">XXXX</h4>    
+
+      <nav>
+        <ul className="nav-links">
+          <li>
+            <Link to="/" className="nav-item">
+              <span className="hashtag">#</span>{t('home')}
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/projects" className="nav-item">
+              <span className="hashtag">#</span>{t('projects')}
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/aboutme" className="nav-item">
+              <span className="hashtag">#</span>{t('about')}
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/resume" className="nav-item">
+              <span className="hashtag">#</span>{t('resume')}
+            </Link>
+          </li>
+
+          <li>
+            <select
+              className="selecao-idioma"
+              value={idioma}
+              onChange={(e) => changeLanguage(e.target.value)}
+            >
+              <option value="EN">EN</option>
+              <option value="PT">PT-BR</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  )
+}
+
+export default Header

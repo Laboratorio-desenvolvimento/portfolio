@@ -20,7 +20,7 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 
 - **React**: Biblioteca JavaScript para desenvolvimento de interfaces interativas e reutilizáveis.
 - **Tailwind**: Framework CSS utilitário para estilização rápida e responsiva.
--  Definir build tool (Vite ou CRA)
+- **Vite**: Build tool utilizada para desenvolvimento local e geração do build de produção.
 -  Definir servico de envio de e-mail (EmailJS, Formspree, etc.)
 
 ## 📦 Dependências
@@ -33,19 +33,25 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 
 ```
 /
-  public/
-  src/
-    assets/
-    components/
-    data/
-    locales/
-    services/
-    styles/
-    App.jsx
-    main.jsx
+   docs/
+      prototipos/
+   frontend/
+      public/
+      src/
+         assets/
+         components/
+         locales/
+         pages/
+         services/
+         styles/
+         App.jsx
+         main.jsx
+      package.json
+      vite.config.js
+   README.md
 ```
 
-> Ajuste a estrutura conforme a organizacao real do projeto.
+> Estrutura atualizada conforme o repositório.
 
 ## 🔧 Instalação e Execução
 
@@ -57,14 +63,18 @@ Certifique-se de que o usuário tenha o ambiente configurado.
 
 ### Passos
 
-1. Instale as dependencias:
+1. Acesse a pasta do front-end:
+   - cd frontend
+2. Instale as dependências:
    - npm install
-2. Execute em modo de desenvolvimento:
-   - npm run dev (Vite) ou npm start (CRA)
-3. Build de producao:
+3. Execute em modo de desenvolvimento:
+   - npm run dev
+4. Gere o build de produção:
    - npm run build
+5. Visualize o build localmente (opcional):
+   - npm run preview
 
-> Atualize os comandos conforme os scripts reais do projeto.
+> Comandos atualizados conforme os scripts reais do projeto.
 
 ## Configuração do formulário de contato
 
@@ -85,6 +95,20 @@ Passo a passo de execução aqui.
 
 - https://www.figma.com/design/2n2ZNTDzwCOiKLBwfiv7Ir/Portfolio?node-id=0-1&t=ZzlhBkS4CiMu8oKJ-1
 
+## 🖼️ Prints do Protótipo
+
+### Home
+![Tela Home](docs/prototipos/Home.jpg)
+
+### About
+![Tela About](docs/prototipos/About.jpg)
+
+### Projects
+![Tela Projects](docs/prototipos/Projects.jpg)
+
+### Resume
+![Tela Resume](docs/prototipos/Resume.jpg)
+
   
 ## 👥 Autores
 
@@ -95,7 +119,7 @@ Passo a passo de execução aqui.
 
 ## Professor responsável
 
-- Joao Paulo Carneiro Aramuni
+- João Paulo Carneiro Aramuni
 
 ## Licença
 
