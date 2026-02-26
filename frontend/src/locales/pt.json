@@ -3,10 +3,18 @@
     "about": "sobre mim",
     "projects": "projetos",
     "resume": "resumo",
+    "contact": "contatos",
     "portfolio": "Portfólio",
     "nome": "Nome",
     "profissao": "ENGENHEIRO DE SOFTWARE",
     "veja-projetos": "veja meus projetos",
     "entre-em-contato": "entre em contato",
+    "trabalhando-atualmente": "trabalhando atualmente em Portfolio",
+    "contato-resumo": "Estou interessado em oportunidades de freelance. No entanto,\n se você tiver outra solicitação ou pergunta, não \n hesite em entrar em contato comigo",
+    "contato-descricao": "Sinta-se à vontade para se conectar ou me enviar uma mensagem",
+    "email": "Email",
+    "mensagem": "Mensagem",
+    "enviar": "Enviar",
+    "mensagem-enviada": "Mensagem enviada com sucesso!"
     "trabalhando-atualmente": "trabalhando atualmente em Portfolio"
 }
