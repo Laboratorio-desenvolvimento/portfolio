@@ -1,26 +1,18 @@
-import { useLanguage } from '../services/translation'
-import '../styles/header.css'
+import { Link } from 'react-router-dom';
 
-function Header(){
-    const { t, idioma, changeLanguage } = useLanguage();
-
+const Header = () => {
     return (
-        <>
-          <div className="cabeca">
-            <h4 className="nome">XXXX</h4>
-            <div className="nav-links">
-              <p><span id="hashtage">#</span>{t('home')}</p>
-              <p><span id="hashtage">#</span>{t('projects')}</p>
-              <p><span id="hashtage">#</span>{t('about')}</p>
-              <p><span id="hashtage">#</span>{t('contact')}</p>
-              <select className="selecao-idioma" value={idioma} onChange={(e) => changeLanguage(e.target.value)}>
-                <option value="EN">EN</option>
-                <option value="PT">PT</option>
-              </select>
-            </div>
-          </div>
-        </>
-      )
-}
+        <header style={{ padding: '1rem' }}>
+            <nav>
+                <ul style={{ display: 'flex', justifyContent: 'flex-end', gap: '2rem', listStyle: 'none', margin: 0, padding: 0 }}>
+                    <li><Link to="/" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Início</Link></li>
+                    <li><Link to="/projects" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Projetos</Link></li>
+                    <li><Link to="/aboutme" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Sobre mim</Link></li>
+                    <li><Link to="/resume" style={{ color: '#ABB2BF', textDecoration: 'none' }}>Currículo</Link></li>
+                </ul>
+            </nav>
+        </header>
+    );
+};
 
-export default Header
+export default Header;
