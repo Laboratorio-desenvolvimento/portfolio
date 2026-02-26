@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../services/translation'
 import "../styles/home.css"
+import Contacts from '../components/contacts.jsx'
 
 const Home = () => {
     const { t, idioma, changeLanguage } = useLanguage()
@@ -19,6 +20,8 @@ const Home = () => {
                 <div className="photo-box" aria-hidden="true"></div>
                 <p>{t("trabalhando-atualmente")}</p>
             </div>
+
+            <div className="contacts-container"><Contacts /></div>
         </div>
     );
 };

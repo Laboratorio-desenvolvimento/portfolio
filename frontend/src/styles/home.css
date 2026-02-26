@@ -46,6 +46,13 @@
         border-radius: 6px;
 }
 
+.contacts-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+}
+
 @media (max-width: 480px){
   .cta-box{
     flex-direction: column;
