@@ -15,5 +15,8 @@
     "email": "Email",
     "mensagem": "Message",
     "enviar": "Send",
-    "mensagem-enviada": "Message sent successfully!"
+    "mensagem-enviada": "Message sent successfully!",
+    "baixar-curriculo": "download resume",
+    "resume-english": "English",
+    "resume-portuguese": "Portuguese"
 }
