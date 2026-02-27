@@ -18,5 +18,8 @@
     "mensagem-enviada": "Message sent successfully!",
     "baixar-curriculo": "download resume",
     "resume-english": "English",
-    "resume-portuguese": "Portuguese"
+    "resume-portuguese": "Portuguese",
+    "about-subtitle": "Who am I?",
+    "about-paragraph-1": "I am a front-end developer focused on building modern, accessible and responsive interfaces.",
+    "about-paragraph-2": "I turn ideas into clear and functional digital experiences, always seeking technical growth and code quality."
 }
