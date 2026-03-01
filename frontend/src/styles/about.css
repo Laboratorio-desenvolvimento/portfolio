@@ -1,0 +1,56 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.about-title,
+.about-section-title {
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.about-title {
+    font-size: 2rem;
+}
+
+.about-section-title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.about-tag {
+    color: #870EBF;
+    margin-right: 0.35rem;
+}
+
+.about-subtitle {
+    margin: 0;
+    color: #ABB2BF;
+}
+
+.about-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: #ABB2BF;
+    line-height: 1.7;
+}
+
+.about-bio p {
+    margin: 0;
+}
+
+@media (max-width: 640px) {
+    .about-title {
+        font-size: 1.75rem;
+    }
+
+    .about-section-title {
+        font-size: 1.3rem;
+    }
+}

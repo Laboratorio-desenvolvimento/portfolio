@@ -1,0 +1,63 @@
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.resume-title {
+    margin: 0;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+.resume-tag {
+    color: #870EBF;
+    font-weight: 700;
+}
+
+.resume-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.resume-lang-btn {
+    background: transparent;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+    padding: 0.45rem 0.9rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.resume-lang-btn:last-child {
+    border-right: none;
+}
+
+.resume-lang-btn.active {
+    color: #870EBF;
+}
+
+.resume-preview {
+    width: min(100%, 960px);
+    height: 68vh;
+    min-height: 520px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #1f232a;
+}
+
+.resume-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .resume-preview {
+        min-height: 400px;
+        height: 60vh;
+    }
+}
