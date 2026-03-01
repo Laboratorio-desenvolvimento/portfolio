@@ -7,8 +7,8 @@ import ptTranslation from "../locales/pt.json";
 i18n
     .use(initReactI18next)
     .init({
-        lng: "en", // Idioma padrão
-        fallbackLng: "en", // Idioma de contingência
+        lng: "pt", // Idioma padrão
+        fallbackLng: "pt", // Idioma de contingência
         resources: {
             en: {
                 translation: enTranslation

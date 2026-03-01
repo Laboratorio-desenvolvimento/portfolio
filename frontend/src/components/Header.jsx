@@ -7,7 +7,7 @@ const Header = () => {
   const { t, idioma, changeLanguage } = useLanguage()
 
   return (
-    <header className="cabeca">
+    <header className="cabeca" style={ { padding: '1rem', backgroundColor: '#282C33', opacity: 0.9 } }>
       <h4 className="titulo">XXXX</h4>    
 
       <nav>
@@ -42,8 +42,8 @@ const Header = () => {
               value={idioma}
               onChange={(e) => changeLanguage(e.target.value)}
             >
-              <option value="EN">EN</option>
               <option value="PT">PT-BR</option>
+              <option value="EN">EN</option>
             </select>
           </li>
         </ul>

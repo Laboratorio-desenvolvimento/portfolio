@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 export const useLanguage = () => {
     const { t, i18n } = useTranslation();
-    const [idioma, setIdioma] = useState('EN');
+    const [idioma, setIdioma] = useState('PT');
 
     useEffect(() => {
         setIdioma(i18n.language.toUpperCase());
