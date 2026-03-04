@@ -164,3 +164,27 @@
     animation: gradient-shift 10s ease-in-out infinite;
 }
 
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    border-style: solid;
+    border-color: #ABB2BF;
+    border-width: 1px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skills-description {
+    margin: 0;
+    color: #ABB2BF;
+    text-align: center;
+    padding: 0 1rem;
+}

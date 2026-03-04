@@ -7,6 +7,25 @@ import ifoodLogo from "../assets/IfoodIcon.png"
 const AboutMe = () => {
     const { t } = useLanguage()
 
+    const skillsData = [
+        {
+            titleKey: 'skills.skill-1-title',
+            techs: "TyppeScript Python JavaScript Cobol"
+        },
+        {
+            titleKey: 'skills.skill-2-title',
+            techs: "VSCode Figma Linux Git Font Awesome"
+        },
+        {
+            titleKey: 'skills.skill-3-title',
+            techs: " React Vue Dinsnake Discord.js"
+        },
+        {
+            titleKey: 'skills.skill-4-title',
+            techs: "SQLite PostGreSQL Mongo"
+        }
+    ];
+
     return (
         <>
             <section className="about-content">
@@ -28,6 +47,18 @@ const AboutMe = () => {
                     <span className="skills-tag">#</span>
                     {t('skills')}
                 </h1>
+
+                <div className="skills-grid">
+                    {skillsData.map((skill, index) => (
+                        <div className="skill-card" key={index}>
+                            <div className="skill-card">
+                                <p className="skills-description">{t(skill.titleKey)}</p>
+                            </div>
+                            <p className="skills-details">{t(skill.techs)}</p>
+                        </div>
+                    ))}
+                </div>
+
             </section>
 
             <section className="experience-content">

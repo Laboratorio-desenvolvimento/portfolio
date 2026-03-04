@@ -55,5 +55,9 @@
     "position-name-2": " Desenvolvedor Backend Sênior",
     "job-description-1": "Atuei no desenvolvimento e manutenção de aplicações back-end, implementando APIs, regras de negócio e integrações com bancos de dados. Realizei versionamento com Git, correção de bugs e otimização de performance, trabalhando em equipe com metodologias ágeis e boas práticas de desenvolvimento.",
     "job-description-2": "Atuei como Desenvolvedor Pleno no desenho e evolução de soluções escaláveis, definindo arquiteturas e conduzindo code reviews para garantir qualidade e boas práticas. Trabalhei em conjunto com times multidisciplinares no planejamento de entregas e participei da implementação de CI/CD, monitoramento e otimização contínua de aplicações em produção.",
-    "job-description-3": "Atuei como Desenvolvedor Sênior, liderando decisões arquiteturais e a evolução de sistemas de alta escala e missão crítica. Fui responsável por definir padrões técnicos, orientar desenvolvedores do time, conduzir code reviews estratégicos e garantir a qualidade e sustentabilidade do código a longo prazo.\n\nTambém atuei na decomposição de serviços, otimização de performance e confiabilidade, além de participar ativamente do planejamento técnico, priorização de débitos técnicos e definição de roadmap junto às áreas de produto e negócios."
+    "job-description-3": "Atuei como Desenvolvedor Sênior, liderando decisões arquiteturais e a evolução de sistemas de alta escala e missão crítica. Fui responsável por definir padrões técnicos, orientar desenvolvedores do time, conduzir code reviews estratégicos e garantir a qualidade e sustentabilidade do código a longo prazo.\n\nTambém atuei na decomposição de serviços, otimização de performance e confiabilidade, além de participar ativamente do planejamento técnico, priorização de débitos técnicos e definição de roadmap junto às áreas de produto e negócios.",
+    "skills.skill-1-title": "Linguagens",
+    "skills.skill-2-title": "Ferramentas",
+    "skills.skill-3-title": "Frameworks",
+    "skills.skill-4-title": "Databases"
 }
