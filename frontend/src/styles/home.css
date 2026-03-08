@@ -6,18 +6,28 @@
         padding: 2rem;
         flex-direction: column;
 }
+
+.home-container {
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .home-intro{
     display: flex;
-    align-items: stretch;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
 .home-infos {
     flex: 1;
     display: flex;
+    margin-left: 10%;
     flex-direction: column;
-    justify-content: space-between;
+    grid-gap: 2.5rem;
 }
 .home-bottom {
     display: flex;
@@ -71,7 +81,7 @@
 .cta-box{
         display: flex;
         gap: 1rem;
-        align-items: center;
+        align-items: left;
         padding: 0.5rem 0.75rem;
         border-radius: 8px;
         margin-bottom: 0.2rem; 
@@ -88,9 +98,9 @@
         transition: all 0.3s ease;
 }
 
-.cta-item:hover{
-        background: #6d0a96;
-        border-color: #6d0a96;
+.cta-item:hover {
+    background: #870EBF;
+    transform: scale(1.05);
 }
 
 .location {

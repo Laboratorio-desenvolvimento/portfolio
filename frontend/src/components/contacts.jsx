@@ -7,7 +7,7 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 import EmailForm from './EmailForm'  
 
 const Contacts = () => {
-    const { t, idioma, changeLanguage } = useLanguage()
+    const { t } = useLanguage()
 
     // lista de contatos, cada um com href, label e ícone, editar as urls com suas informações
     const items = [
@@ -24,8 +24,6 @@ const Contacts = () => {
             </h2>
             <p>{t("contato-resumo")}</p>
             
-            <EmailForm />
-
             <div className="contact-links">
                 {items.map(item => (
                     <a
@@ -40,6 +38,9 @@ const Contacts = () => {
                     </a>
                 ))}
             </div>
+
+            <EmailForm />
+
         </div>
     )
 }

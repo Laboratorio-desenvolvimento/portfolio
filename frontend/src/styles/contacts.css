@@ -6,19 +6,19 @@
 
 .envio-email {
   width: 100%;
-  max-width: 600px; /* mantém largura original */
+  max-width: 600px;
   border: 2px solid #870ebf;
-  padding: 1.1rem 1.5rem; /* menos altura */
+  padding: 1.1rem 1.5rem;
   border-radius: 8px;
-  margin-top: 1.2rem; /* reduz espaço acima */
+  margin-top: 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem; /* menos espaço entre elementos */
+  gap: 0.6rem;
 }
 
 .envio-email h2 {
   margin: 0;
-  font-size: 1.2rem; /* ligeiramente menor */
+  font-size: 1.2rem;
   color: #870ebf;
   text-align: center;
 }
@@ -32,7 +32,7 @@
 
 .envio-email label {
   color: #ddd;
-  font-size: 0.8rem; /* menor */
+  font-size: 0.8rem;
 }
 
 .envio-email input,
@@ -41,19 +41,19 @@
   background: #21232a;
   border: 1px solid #870ebf;
   border-radius: 6px;
-  padding: 0.55rem 0.7rem; /* menos altura interna */
+  padding: 0.55rem 0.7rem;
   color: #fff;
   font-size: 0.9rem;
 }
 
 .envio-email textarea {
   resize: vertical;
-  min-height: 80px; /* antes 120px */
+  min-height: 80px;
 }
 
 .envio-email button {
   width: 100%;
-  padding: 0.55rem; /* menor */
+  padding: 0.55rem;
   background: #870ebf;
   color: #fff;
   border: none;
@@ -95,8 +95,6 @@
   gap: 1rem;
   margin-top: 1.5rem;
   padding: 0.5rem 1rem;
-  border-radius: 6px;
-  border: 1px solid #fff;
   max-width: fit-content;
   align-self: center;
 }
@@ -119,9 +117,10 @@
   display: flex;
   align-items: center;
   font-size: 1.2em;
+  background-color: transparent;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  background: rgba(255,255,255,0.1);
+.contact-link:hover {
+    background: #870EBF;
+    transform: scale(1.05);
 }

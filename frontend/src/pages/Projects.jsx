@@ -90,8 +90,8 @@ const Projects = () => {
 
             <div className="projects-grid">
                 {projectsData.map((project, index) => (
-                    <div className="project-card" key={index}>
-                        <img src={project.image} alt={t(project.titleKey)} className="project-image" />
+                    <div className="best-project-card" key={index}>
+                        <img src={project.image} alt={t(project.titleKey)} className="best-project-image" />
                         <div className="project-techs">
                             {project.techs.map((tech, i) => (
                                 <span className="project-tech" key={i}>{tech}</span>
@@ -114,7 +114,7 @@ const Projects = () => {
 
             <div className="projects-grid">
                 {smallProjectsData.map((project, index) => (
-                    <div className="project-card" key={index}>
+                    <div className="best-project-card" key={index}>
                         <div className="project-techs">
                             {project.techs.map((tech, i) => (
                                 <span className="project-tech" key={i}>{tech}</span>

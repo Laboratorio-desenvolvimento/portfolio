@@ -47,7 +47,7 @@ const BestProjects = () => {
 
             <div className="projects-grid">
                 {bestProjectsData.map((project, index) => (
-                    <div className="project-card" key={index}>
+                    <div className="best-project-card" key={index}>
                         <img
                             src={project.image}
                             alt={t(project.titleKey)}

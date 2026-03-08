@@ -13,13 +13,13 @@ import { MdLocationOn } from "react-icons/md";
 import foto from "../assets/foto.png"
 
 const Home = () => {
-    const { t, idioma, changeLanguage } = useLanguage()
+    const { t } = useLanguage()
 
     return (
         <div className="home-content">
             <div className="home-intro">
                 <div className="home-infos">
-                    <div>
+                    <div className='home-container'>
                         <h1 className="nome">{t("nome")}</h1>
                         <h3 className="profissao">{t("profissao")}</h3>
                     </div>

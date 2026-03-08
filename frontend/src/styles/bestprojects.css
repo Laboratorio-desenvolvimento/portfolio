@@ -38,8 +38,11 @@
 /* imagem */
 .best-project-card img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
+    height: 200px;
+    object-fit: scale-down;
+    padding: 10px;
+    height: auto;
+    display: block;
 }
 /* techs */
 .best-project-techs {
@@ -100,6 +103,12 @@
     border-radius: 4px;
     transition: all 0.3s ease;
 }
+
+.all-projects:hover {
+    background: #870EBF;
+    transform: scale(1.05);
+}
+
 /* Responsividade */
 @media (max-width: 900px) {
     .best-projects-grid {
